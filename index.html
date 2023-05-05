@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Presupuesto App</title>
+    <script src="https://kit.fontawesome.com/0d801ad81f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Presupuesto App</h1>
+      <div class="input-section">
+        <label for="presupuesto">Ingresa tu presupuesto:</label>
+        <input type="number" id="presupuesto">
+        <button id="calcular">Calcular</button>
+      </div>
+      <div class="gastos-section">
+        <h2>Ingresa tus gastos:</h2>
+        <div class="input-row">
+          <input type="text" id="nombre-gasto" placeholder="Nombre del gasto">
+          <input type="number" id="valor-gasto" placeholder="Valor del gasto">
+          <button id="anadir-gasto">Añadir Gasto</button>
+        </div>
+        <div class="table">
+          <div class="row header">
+            <div class="column">Presupuesto</div>
+            <div class="column">Gastos</div>
+            <div class="column">Saldo</div>
+          </div>
+          <div class="row">
+            <div class="column" id="presupuesto-valor">-</div>
+            <div class="column" id="gastos-valor">-</div>
+            <div class="column" id="saldo-valor">-</div>
+          </div>
+        </div>
+        <div class="lista-gastos">
+          <h3>Gastos registrados:</h3>
+          <ul id="lista">
+            <i class="fa-solid fa-trash"></i>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>

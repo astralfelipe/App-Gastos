@@ -1,0 +1,81 @@
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .input-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-section label {
+    margin-right: 10px;
+  }
+  
+  .gastos-section {
+    border: 1px solid black;
+    padding: 20px;
+  }
+  
+  .input-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .input-row input {
+    margin-right: 10px;
+  }
+  
+  .table {
+    display: table;
+    margin-bottom: 20px;
+  }
+  
+  .row {
+    display: table-row;
+  }
+  
+  .row.header {
+    font-weight: bold;
+  }
+  
+  .column {
+    display: table-cell;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid black;
+  }
+  
+  .lista-gastos {
+    margin-top: 20px;
+  }
+  
+  .lista-gastos h3 {
+    margin-bottom: 10px;
+  }
+  
+  .lista-gastos ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .lista-gastos ul li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  
+  .lista-gastos ul li .borrar {
+    cursor: pointer;
+  }
+
+
+  
